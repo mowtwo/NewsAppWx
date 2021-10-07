@@ -1,0 +1,10 @@
+<swiper indicator-dots="true" indicator-color="#aaa" indicator-active-color="#fff">
+  <block wx:for="{{swiperList}}" wx:key="index">
+    <swiper-item class="swiper__item">
+      <image src="{{item.image}}" />
+      <view class="swiper__title">
+        {{item.title}}
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

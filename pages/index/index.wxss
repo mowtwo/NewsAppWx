@@ -1,0 +1,9 @@
+.swiper__title {
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.514),rgba(0, 0, 0, 0));
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 50rpx 0;
+}
